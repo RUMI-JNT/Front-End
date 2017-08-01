@@ -18,19 +18,25 @@
 <div class="layout-body">
 	<div class="body-form">
 		<img src="user-image.jpg">
-		<form>
-		<!-- <form action="/shareddrive" method="get"> -->
-			<label>Upload Photo</label>
-			<input type="image">
-			<label>Enter Profile Name</label>
-			<input type="text" placeholder="Enter Name" name="">
+		<form id="form1">
+			<label>Username</label>
+			<input type="password" class="form-control" id="form1-password" placeholder="Username">
+			<label>Password</label>
+			<input type="password" class="form-control" id="form1-password" placeholder="Password">
+
 			<label>Enter Email</label>
-			<input type="email" name="email">
+			 <input type="email" class="form-control" id="form1-email" aria-describedby="emailHelp" placeholder="Enter email">
 			<label>Enter Cellphone</label>
-			<input type="number" name="">
-			<button id="signin" type="submit">next</button>
+			<input class="form-control" type="tel" name="phone" placeholder="(555)-555-5555" id="form1-cellphone">
 		</form>
+		<button type="submit" form="form1" class="btn">Next</button>
 	</div>
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+	$( document ).ready(
+	$("input[name='phone']").keyup(function() {
+    $(this).val($(this).val().replace(/^(\d{3})(\d{3})(\d)+$/, "($1)$2-$3"));
+}));
+</script>
