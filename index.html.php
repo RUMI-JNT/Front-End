@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+BB<!DOCTYPE HTML>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -26,12 +26,12 @@
 		<img class="form1-image" src="user-image.jpg">
 		<form class="form1" id="form1" method="get" action="">
 			<label>Username</label>
-			<input type="text" class="form-control" id="username" name="Username" placeholder="Username">
+			<input type="text" class="form-control" id="username" placeholder="Username">
 			<label>Password</label>
-			<input type="password" class="form-control" name="password" id="password" placeholder="Password">
+			<input type="password" class="form-control" id="password" placeholder="Password">
 			<div class="form-group">
 				<label class= "form-control-label">Enter Email</label>
-					<input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+					<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
 				 </div>
 			<label>Enter Cellphone</label>
 			<input class="form-control" id="cellphone" type="tel" name="phone" placeholder="(555)-555-5555" id="form1-cellphone" maxlength="14">
