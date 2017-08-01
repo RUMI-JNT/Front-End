@@ -5,14 +5,31 @@
 </head>
 <body>
 <div class="layout-header">
-<ul>
-	<li>about</li>
-	<li>login</li>
-	<li>contact</li>
-</ul>
+
+<div class="header-navigation">
+<h1 class="navigation-title">RUMI</h1>
+	<ul class="navigation-links">
+		<li><a href="#">about</a></li>
+		<li><a href="#">login</a></li>
+		<li><a href="#">contact</a></li>
+	</ul>
+</div>
 </div>
 <div class="layout-body">
-
+	<div class="body-form">
+		<img src="user-image.jpg">
+		<form>
+			<label>Upload Photo</label>
+			<input type="image">
+			<label>Enter Profile Name</label>
+			<input type="text" placeholder="Enter Name" name="">
+			<label>Enter Email</label>
+			<input type="email" name="email">
+			<label>Enter Cellphone</label>
+			<input type="number" name="">
+			<button id="signin" type="submit">next</button>
+		</form>
+	</div>
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

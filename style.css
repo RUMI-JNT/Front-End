@@ -1,0 +1,31 @@
+.header-navigation {
+	background-color: #4dbfbf;
+	height: 100px;
+	display: flex;
+  justify-content: space-between;
+}
+.navigation-links {
+	justify-content: flex-end;
+	align-items: flex-end;
+  font-size: 2em;
+  display: flex;
+}
+.navigation-links li a{ 
+	color: white;
+	text-decoration: none;
+	padding-right: 20px; 
+}
+.navigation-links li{ 
+	list-style-type: none;
+
+}
+.navigation-title {
+	margin: 0;
+	display: flex;
+	align-items: flex-end;
+	color: white;
+	font-size: 85px;
+}
+
+
+    
