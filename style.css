@@ -7,8 +7,9 @@
 .navigation-links {
 	justify-content: flex-end;
 	align-items: flex-end;
-  font-size: 2em;
+  font-size: 20PX;
   display: flex;
+  padding: 0;
 }
 .navigation-links li a{ 
 	color: white;
@@ -26,6 +27,29 @@
 	color: white;
 	font-size: 85px;
 }
-
+.body-form {
+	display: flex;
+	padding-bottom:155px;
+}
+.layout-body {
+	max-width: 660px;
+	display: flex;
+	padding: 40px;
+	border: 1px solid gray;
+	margin: 40px;
+	position: relative;
+}
+.btn {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 10px;
+  background: white;
+  border: 1px solid lightgray;
+  
+}
+#form1 {
+	padding-left: 40px;
+}
 
     
